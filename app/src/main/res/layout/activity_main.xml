@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_alert"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#C82D40"
+        android:text="Alert Dialog"
+        android:textAllCaps="false"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_custom"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#C82D40"
+        android:text="Custom Dialog"
+        android:textAllCaps="false"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_fragment"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#C82D40"
+        android:text="Fragment Dialog"
+        android:textAllCaps="false"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_datapicker"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#C82D40"
+        android:text="DataPicker Dialog"
+        android:textAllCaps="false"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_timepicker"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#C82D40"
+        android:text="TimePicker Dialog"
+        android:textAllCaps="false"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_bottomsheet"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#C82D40"
+        android:text="BottomSheet Dialog"
+        android:textAllCaps="false"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_snackbar"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#C82D40"
+        android:text="Snackbar"
+        android:textAllCaps="false"
+        android:textSize="15sp" />
+
+</LinearLayout>
