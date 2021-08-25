@@ -71,4 +71,16 @@
         android:textAllCaps="false"
         android:textSize="15sp" />
 
+    <Button
+        android:id="@+id/btn_connection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:textAllCaps="false"
+        android:text="Connect"
+        android:backgroundTint="@color/teal_200"
+        />
+
 </LinearLayout>
